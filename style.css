@@ -1,0 +1,66 @@
+
+body {
+  
+    background: #66676C;
+    height: 150%;
+}
+h1 {
+  font-size:200%;
+  color: #fff;
+  text-align: center;
+}
+h2 {
+  font-size:150%;
+  color: #C8C9C7;
+  text-align: center;
+}
+
+.mensaje {
+  background-color: #C8C9C7;
+  border-radius: 2%;
+
+}
+.desplazamiento {
+  background-color: #C8C9C7;
+  border-radius: 2%;
+
+}
+.cifrar {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fff;
+  border-radius: 10%;
+
+
+}
+.descifrar {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fff;
+  border-radius: 10%;
+  
+}
+ h3 {
+  font-size:150%;
+  color: #fff;
+  text-align: center;
+
+ }
+ 
+ .mensaje2 {
+  background-color: #C8C9C7;
+  border-radius: 2%;
+
+ }
+ img {
+box-sizing: border-box;
+
+ }
+
+
+
+
+
+
+
+    
+
+  
