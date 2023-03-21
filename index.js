@@ -2,58 +2,69 @@ import cipher from './cipher.js';
 
 console.log(cipher);
 
+//window.addEventListener("load",start, true);
 
-window.addEventListener("load",inicio, true)
+//function start (){
+    
+    //document.getElementsById("message").addEventListener("keyup", function(){
+        //this.value = this.value.toUpperCase();
+    //},true);
+    
+//}
+    //document.getElementById("cipher").addEventListener("click", function(){
+       // let text = document.getElementById("message").value;
+        //let displacement = document.getElementById("displacement").value;
+        //document.getElementById ("message2").value = cipher2 (text,displacement);
+    //}, true);
+    //document.getElementById("decipher").addEventListener ("click", function(){
+        //let text = document.getElementById("message").value;
+        //let displacement = document.getElementById ("displacement").value;
+       // document.getElementById ("message2").value = decipher (text,displacement);
+    //},true);
 
-function inicio (){
-    document.getElementById("mensaje").addEventListener("keyup", function(){
-        this.value = this.value.toUpperCase();
-    },true);
-    document.getElementById("cifar").addEventListener("click", function(){
-        let texto = document.getElementById("mensaje").value;
-        let desplazamiento = document.getElementById("desplazamiento").value;
-        document.getElementById("mensaje2").value = cifrar2(texto, deslazamiento);
-    }, true);
-    document.getElementById("descifrar").addEventListener ("click", function(){
-        let texto = document.getElementById ("mensaje").value;
-        let desplazamiento = document.getElementById ("desplazamiento").value;
-        document.getElementById("mensaje2").value=descifrar(texto,desplazamiento);
-    },true);
-}
 
-function cifrar (texto,desplazamiento){
-    let resultado = "";
-    let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//function cifrar (text,displacement){
+    //let result = "";
+   // let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
 
-    desplazamiento = (desplazamiento % 26 + 26) % 26;
+    //displacement = (displacement % 26 + 26) % 26;
 
-    if (texto){
-         for (let i = 0; i<texto.length; i++){
-            if (letras.indexOf (texto [i])!=-1){
-                let  posicion = ((letras.indexOf(texto[i])+desplazamiento)%26);
-                resultado += letras[posicion];
-            }
-            else 
-                resultado += texto[i];
-         }
+    //if (text){
+        // for (let i = 0; i<text.length; i++){
+           // if (alphabet.indexOf (text [i])!=-1){
+                //let  posicion = ((alphabet.indexOf(text[i])+displacement)%26);
+                //result += alphabet[posicion];
+            //}
+            //else 
+               // result += text[i];
+         //}
 
-    }
-    return resultado
-}
+    //}
+    //return result;
+//}
 
-function cifrar2 (texto, desplazamiento){
-    if (!texto)
-         return "";
-    const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    deplazamiento = (desplazamiento % 26 + 26)% 26;
-    return texto.replace (/[A-Z]/ig, c=> letras [(letras.indexOf(c)+desplazamiento)%26]);
+//function cipher2 (text, displacement){
+    //if (!text)
+        // return "";
+   // let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    //displacement = (displacement % 26 + 26)% 26;
+    //return text.replace (/[A-Z]/ig, c=> alphabet [(alphabet.indexOf(c)+displacement)%26]);
 
-}
-function descifrar (texto, desplazamiento){
-    if (!texto)
-         return "";
-    const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    deplazamiento = (desplazamiento % 26 - 26)% 26;
-    return texto.replace (/[A-Z]/ig, c=> letras [(letras.indexOf(c)-desplazamiento)%26]);
+//}
+//function decipher (text, displacement){
+    //if (!text)
+         //return "";
+    //let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-}
+    //displacement = (displacement % 26 - 26)% 26;
+
+    //return text.replace (/[A-Z]/ig, c=> alphabet [(alphabet.indexOf(c)-displacement)%26]);
+
+//}
+const alphabet = [ "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+ function rot13 (str) {
+
+
+ }
+
