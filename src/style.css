@@ -24,12 +24,14 @@ h2 {
   border: 10px solid #C8C9C7;
   width: 400px;
   height: 30px;
-  align-items: center;
+  align-items:center;
   font-size: 100%;
   color:#66676C;
   cursor: pointer;
   align-self: hover; 
-}
+
+  }
+
 #displacement {
   background-color: #C8C9C7;
   border-radius: 5px;
@@ -86,6 +88,20 @@ h2 {
 
  }
 
+img.icon {
+  width: 10%;
+  height:6%;
+  align-items: flex-end;
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -103,10 +119,10 @@ h2 {
    font-size: 150%;
    font-style: normal;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 
 }  
-   
- 
+
 
 #txt1 {
 
