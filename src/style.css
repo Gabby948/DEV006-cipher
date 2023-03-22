@@ -19,6 +19,7 @@ h2 {
 }
 
 #message {
+  margin-left: 100px;
   background-color: #C8C9C7;
   border-radius: 5px;
   border: 10px solid #C8C9C7;
@@ -33,6 +34,7 @@ h2 {
   }
 
 #displacement {
+  margin-left: 100px;
   background-color: #C8C9C7;
   border-radius: 5px;
   border: 10px solid #C8C9C7;
@@ -46,6 +48,7 @@ h2 {
 }
 
 #cipher {
+  margin-left: 100px;
   font-family: 'Times New Roman', Times, serif;
   background-color: #fff;
   border-radius: 10%;
@@ -55,6 +58,7 @@ h2 {
 }
 
 #decipher {
+  margin-left: 20px;
   font-family: 'Times New Roman', Times, serif;
   background-color: #fff;
   border-radius: 10%;
@@ -69,13 +73,16 @@ h2 {
  }
  
  #message2 {
+
+  width: 300px;
+  height: 30px;
+  margin-left: 100px;
+  float: left;
+  align-items: center;
   background-color: #C8C9C7;
   border-radius: 2%;
   border-radius: 5px;
   border: 10px solid #C8C9C7;
-  width: 300px;
-  height: 30px;
-  align-items: center;
   font-size: 100%;
   color:#66676C;
   cursor: pointer;
@@ -92,7 +99,9 @@ img.icon {
   width: 10%;
   height:6%;
   align-items: flex-end;
+  
 
+  
 
 }
 
@@ -110,13 +119,14 @@ img.icon {
   border: 3px;
   color: black;
 
+
  }
 
  #portada {
    
    background-color: #66676C;
    text-align: center;
-   font-size: 150%;
+   font-size: 100%;
    font-style: normal;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
@@ -127,8 +137,9 @@ img.icon {
 #txt1 {
 
   color:  #C8C9C7;
+  box-sizing: content-box;
   border: 2px;
-  font-size: 250%;
+  font-size: 200%;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
  }
@@ -137,7 +148,7 @@ img.icon {
   color:  #C8C9C7;
   font-size: 200%;
   padding-left: 5%;
-  text-align: left;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
 
 }
@@ -169,6 +180,12 @@ img.icon {
   }
   
 
+#option1 {
+  border: 3px;
+  color: black
+
+
+}
 
     
 

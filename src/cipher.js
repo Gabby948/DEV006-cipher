@@ -1,25 +1,20 @@
-const cipher = {
+//const cipher = {
   // ...
-};
+//};
 
 export default cipher;
 
 window.addEventListener("load",start, true);
 
 function start (){
-  document.getElementsById("message").addEventListener("keyup", function(){
+  document.getElementById("message").addEventListener("keyup", function(){
     this.value = this.value.toUpperCase();
 },true);
 
 }
 console.log('start');
 
-function second (){
-  document.getElementsById("message2").addEventListener("keyup", function(){
-    this.value = this.value.toUpperCase();
-},true);
 
-}
 document.getElementById("cipher").addEventListener("click", function(){
   let text = document.getElementById("message").value;
   let displacement = document.getElementById("displacement").value;
@@ -32,7 +27,7 @@ document.getElementById("decipher").addEventListener ("click", function(){
 },true);
 
 
-function cifrar (text,displacement){
+function cipher (text, displacement){
 let result = "";
 const alphabet = [ "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
