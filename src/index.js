@@ -1,33 +1,22 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
 
 
-    
-   
-//const alphabet = [ "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
- //function rot13 (str) {
-    //let accumulator="";
 
-   // for (let i = 0; i < str.length; i++) {
-        //const char = str [i];
-       // const isALetter = alphabet.includes (char);
-        
-       // if (!isALetter===false){
-          //  accumulator += char;
-       // } else {
-            //const charIndex = 
-                //alphabet.findIndex((c) => c === char);
+document.getElementById("message").addEventListener("keyup", function () {
+  this.value = this.value.toUpperCase();
+});
 
-           // accumulator += alphabet [charIndex + 13]
-               // alphabet[charIndex -13];
+document.getElementById("cipher").addEventListener("click", function () {
+  
 
-        //}
-
-    //}
-    
-//return accumulator;
-
- //}
-
+  const text = document.getElementById("message").value;
+  const displacement = document.getElementById("displacement").value;
+  cipher(text, displacement);
+});
+document.getElementById("decipher").addEventListener("click", function () {
+  const text = document.getElementById("message").value;
+  const displacement = document.getElementById("displacement").value;
+  cipher(text, displacement);
+});
