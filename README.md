@@ -13,56 +13,34 @@
 
 ***
 
-## 1. Preámbulo
+ Proyecto: Cifrado Cesar.
 
-Cifrar significa ocultar el contenido de un mensaje a simple vista, de manera
-que sólo las partes autorizadas pueden descifrar un texto cifrado.
-El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+## 1. Resumen del proyecto
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
+En el actual proyecto se muestra una pagína web inicial qe hace cifrados de mensajes.
+   1. Para ingresar se da click en la imagen central que conduce a una segunda página donde se raliza el cifrado.
+   2. Se coloca el mensaje a cifrar
+   3. En el cuadro de Desplazamiento se coloca la cantidad de offset con la que de va a cifrar el mensaje.
+   4. Se procede a dar click ya sea CIFRAR o DESCIFRAR dependiendo de las necesidades dek cliente.
+   5. En MENSAJE CIFRADO/DESCIFRADO procede a salir el mensaje cifrado, siento este el resultado.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+## 2. Organización
+  ## 1 Sprint
 
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+  1. Entre el primer sprint se realiza el analisis de información del proyecto.
+  2. Se realiza la bocetación.
+  3. Pocedea hacer el código de HTML y de Javascript.
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
+  ## 2 Sprint
 
-## 2. Resumen del proyecto
+  1. Se realizan el CSS y corregir HTLM.
+  2. A final de la semana se realizan las pruebas unitarias y corrección de estás.
 
-En este proyecto crearás una aplicación web que servirá para que tu usuaria
-pueda cifrar y descifrar un texto en el navegador indicando un desplazamiento
-específico de caracteres (_offset_). Lo harás utilizando HTML, CSS y JavaScript.
+ ## 3 Sprint
+  
+  1. Se corrige errores de Javascript resultado de los test.
 
-La temática es libre. Piensa en qué situaciones se necesitaría cifrar un mensaje.
-Decide cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
-colores, etc.) Algunas ideas de ejemplo:  
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
-
-Como continuación del proyecto de preadmisión, volverás a trabajar sobre
-fundamentos de JavaScript, incluyendo conceptos como variables, condicionales,
-y funciones, así como eventos y manipulación básica del DOM, fundamentos de
-HTML y CSS. Mientras desarrollas este proyecto, te familiarizarás con nuevos
-conceptos también.
 
 ### Los objetivos generales de este proyecto son los siguientes
 
