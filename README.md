@@ -42,24 +42,7 @@ En el actual proyecto se muestra una pagína web inicial qe hace cifrados de men
   1. Se corrige errores de Javascript resultado de los test.
 
 
-### Los objetivos generales de este proyecto son los siguientes
 
-* Trabajar en base a un boilerplate, la estructura básica de un proyecto en
-  distintas carpetas (a través modulos en JS).
-* Conocer las herramientas de mantenimiento y mejora del código (linters y
-  pruebas unitarias).
-* Aprender sobre objetos, estructuras, métodos e iteración (bucles)
-  en JavaScript
-* Implementar control de versiones con git (y la plataforma github)
-
-## 3. Consideraciones generales
-
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
 
 ## 4. Hito: Criterios de aceptación mínimos del proyecto
 
