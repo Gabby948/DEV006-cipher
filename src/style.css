@@ -47,7 +47,7 @@ h2 {
   cursor: pointer;
 }
 
-#cipher {
+#encode {
   margin-left: 100px;
   font-family: 'Times New Roman', Times, serif;
   background-color: #fff;
@@ -57,7 +57,7 @@ h2 {
   
 }
 
-#decipher {
+#decode {
   margin-left: 20px;
   font-family: 'Times New Roman', Times, serif;
   background-color: #fff;
