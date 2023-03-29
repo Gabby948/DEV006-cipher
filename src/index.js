@@ -7,12 +7,11 @@ document.getElementById("message").addEventListener("keyup", function () {
 });
 
 document.getElementById("encode").addEventListener("click", function () {
-  
-
   const text = document.getElementById("message").value;
   const displacement = document.getElementById("displacement").value;
   cipher(text, displacement);
 });
+
 document.getElementById("decode").addEventListener("click", function () {
   const text = document.getElementById("message").value;
   const displacement = document.getElementById("displacement").value;
