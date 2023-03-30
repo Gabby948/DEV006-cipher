@@ -40,5 +40,6 @@ En el actual proyecto se muestra una pagína web inicial qe hace cifrados de men
 
 ## 4. Bocetación.
 
+https://github.com/Gabby948/DEV006-cipher/blob/main/Imagenes/CAP%201%20CIPHER.jpg?raw=true
 
 
