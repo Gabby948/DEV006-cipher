@@ -4,22 +4,22 @@ Repositorio primer proyecto para cohort DEV006
 
 ## Índice
 
-* [1. Qué hace el proyecto.](#1-Que-hace-el-proyecto?)
-* [2. Por qué el proyecto es útil.](#2-Por-qué-el-proyecto-es-útil?)
-* [3. Planificación](#3-Planificación.
-* [4. Código](#5-Código)
-* [5. Consideraciones técnicas ](#6-consideraciones-técnicas)
-* [6. Lista de las tecnologías utilizadas y enlaces con más información.](#7-Bocetacion-enlaces.)
-* . Resumen del proyecto
+* [1. Qué hace el proyecto.
+* [2. Por qué el proyecto es útil.
+* [3. Planificación]
+* [4. Bocetación.]
 
-## 1. Organización
+
+## 1. Qué hace el proyecto?
 En el actual proyecto se muestra una pagína web inicial qe hace cifrados de mensajes.
    1. Para ingresar se da click en la imagen central que conduce a una segunda página donde se raliza el cifrado.
    2. Se coloca el mensaje a cifrar
    3. En el cuadro de Desplazamiento se coloca la cantidad de offset con la que de va a cifrar el mensaje.
    4. Se procede a dar click ya sea CIFRAR o DESCIFRAR dependiendo de las necesidades dek cliente.
    5. En MENSAJE CIFRADO/DESCIFRADO procede a salir el mensaje cifrado, siento este el resultado.
- ## 2. Por qué el proyecto es 
+ ## 2. Por qué el proyecto es útil?
+ El cifrado en la actualidad es necesario para evitar que alguien no pueda tener acceso a información que se desea preservar
+ y mantener en privado. Desde está visión el proyecto actual tiene una gran relevancia. 
 
 
 ## 3.Planificación
@@ -36,5 +36,9 @@ En el actual proyecto se muestra una pagína web inicial qe hace cifrados de men
 
  ## 3 Sprint
   
-  1. Se corrige errores de Javascript resultado de los test.
+  1. Se corrige errores de Javascript resultado de los test. 
+
+## 4. Bocetación.
+
+
 
