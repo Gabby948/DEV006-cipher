@@ -4,9 +4,9 @@
 
 * [1. Qué hace el proyecto.](#1-Que-hace-el-proyecto?)
 * [2. Por qué el proyecto es útil.](#2-Por-qué-el-proyecto-es-útil?)
-* [3. ](#3-consideraciones-generales)
-* [4.](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5.](#5-hito-opcional-agrega-soporte-para-minúsculas-y-otros-caracteres)
+* [3. Planificación](#3-Planificación)
+* [4. Bocetación](#4-Bocetación)
+* [5. Código](#5-Código)
 * [6. ](#6-consideraciones-técnicas)
 * [7. Lista de las tecnologías utilizadas y enlaces con más información.](#7-Bocetacion-enlaces.)
 
