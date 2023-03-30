@@ -6,6 +6,7 @@
 
 import cipher from '../src/cipher';
 
+
 describe('cipher', () => {
 
   it('should be an object', () => {

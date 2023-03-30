@@ -19,7 +19,7 @@ h1 {
 }
 h2 {
   font-size:150%;
-  color: #C8C9C7;
+  color: #fff;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -39,7 +39,7 @@ h2 {
 
   }
 
-#displacement {
+#offsetNumber {
   margin-left: 100px;
   background-color: #66676C;
   border-radius: 5px;
@@ -139,9 +139,9 @@ img.icon {
 }
 header {
   box-sizing: content-box;
-  background: #C8C9C7;
-  border: 1px solid  #66676C;
-  border-radius: 5%;
+  background: #D9D9D9;
+  border: 1px solid  #D9D9D9;
+  border-radius:10%;
   margin: 5%;
   font-family: 'Times New Roman', Times, serif;
 
@@ -166,6 +166,7 @@ header {
    border-color: #66676C;
    border: 5px;
    margin: 5%;
+  
    background-color: #C8C9C7;
    text-align: center;
    font-size: 100%;

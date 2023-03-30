@@ -7,13 +7,15 @@ document.getElementById("message").addEventListener("keyup", function () {
 });
 
 document.getElementById("encode").addEventListener("click", function () {
-  const text = document.getElementById("message").value;
-  const displacement = document.getElementById("displacement").value;
-  cipher(text, displacement);
+  const encodeMessage = document.getElementById("message").value;
+  const offsetNumber = document.getElementById("offsetNumber").value;
+  cipher.encode (encodeMessage, offsetNumber);
 });
 
+
 document.getElementById("decode").addEventListener("click", function () {
-  const text = document.getElementById("message").value;
-  const displacement = document.getElementById("displacement").value;
-  cipher(text, displacement);
+  const decodeMessage = document.getElementById("message").value;
+  const offsetNumberD = document.getElementById("offsetNumber").value;
+  cipher.decode(decodeMessage, offsetNumberD);
 });
+

@@ -1,55 +1,47 @@
 
- export default cipher;
+export default cipher;
+const cipher = {
 
- const cipher = {
-  encode: encode,
-  decode: decode }
 
- 
 
-  encode: (message, displacement) => {
-  let encodeResult = "";
-  
-    for (let i=0; i<message.length; i++){
-      let character = message [i];
-      if (character.match (/[A-Z]/i)){
-        let upperCaseMessage = message.toUpperCase();
-        let messageAscii = (message.charCodeAt(i)-65+ parseInt (displacement)) %26+65;
-        result += String.fromCharCode (messageAscii);        
+  encode: (offsetNumber, message) => { //verificar si son string u objeto.
+
+    //if(message === null || offsetNumber === 0) {
+    //throw new TypeError }
+
+
+    let encodeMessage = "";
+    for (let i = 0; i < message.length; i++) {
+      const character = message[i];
+      if (message[i](/[A-Z]/i)) {
+        const messageAscii = (message.charCodeAt(i) - 65 + parseInt(offsetNumber)) % 26 + 65;
+        encodeMessage += String.fromCharCode(messageAscii);
       }
-      else if(message === null || displacement === 0) {
-        throw new TypeError
-
-        }
-       
-      else{
-        encodeMessage2 += character;
-      }             
+      else if (message === null || offsetNumber === 0) {
+        throw new TypeError ("Solo letras mayusculas")
+      }
+      else {
+        encodeMessage += character;
+      }
     }
-    return encodeMessage2;
+    return encodeMessage;
   },
-
-  decode: (message2, displacement) => {
-    let decodeResult = "";
-
-    for (let i = 0; i < message2.length; i++) {
-      let character2 = message2[i];
-      if (character2.match(/[A-Z]/i)) {
-        let upperCaseMessage2 =message.toUpperCase();
-        let message2Ascii2 = (message2.charCodeAt(i) + 65 - parseInt(displacement)) % 26 + 65;
-        decodeResult += String.fromCharCode(message2Ascii2);
-
+  decode: (offsetNumber, message) => {
+    let decodeMessage = "";
+    for (let i = 0; i < message.length; i++) {
+      const characterD = message[i];
+      if (characterD.match(/[a-z]/i)) {
+        const messageAsciiD = (message [i].charCodeAt(i) + 65 - parseInt(offsetNumber)) % 26 + 65;
+        decodeMessage += String.fromCharCode(messageAsciiD);
       }
-        else if(message2 === null || displacement === 0) {
-          throw new TypeError
-      } 
-
-      else{
-          decodeMessage2 += character2;
+      else if (message === null || offsetNumber === 0) {
+        throw new TypeError ("Solo letras mayusculas")
+      }
+      else {
+        decodeMessage += characterD;
       }
     }
-      return decodeMessage2; 
- }
+    return decodeMessage;
+  }
+};
 
-
- 
